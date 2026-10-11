@@ -1453,6 +1453,7 @@ h1 em {
   </a>
   <nav class="nav">
     <a href="#scanner">Multi-Angle Scanner</a>
+    <a href="#dataset">Download Dataset</a>
     <a href="#how">How It Works</a>
     <a href="#deployment">24/7 Global Link</a>
   </nav>
@@ -1713,6 +1714,31 @@ h1 em {
         <div style="font-size:11px;color:#a0c2a7;text-align:center;">
           Live 24/7 URL: verdant-plant-health-2026.surge.sh
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATASET DOWNLOAD SECTION -->
+  <section id="dataset" style="margin: 20px auto 55px; max-width: 900px; text-align: center;">
+    <div style="background: white; border: 1.5px solid var(--line); border-radius: 26px; padding: 34px 28px; box-shadow: var(--shadow-sm); text-align: center;">
+      <div style="width: 58px; height: 58px; border-radius: 18px; background: #eef6ec; color: var(--green); display: grid; place-items: center; font-size: 28px; margin: 0 auto 16px;">📂</div>
+      <h2 style="color: var(--forest); font-size: 24px; font-weight: 800; margin-bottom: 8px;">Download Botanical Plant Care Dataset</h2>
+      <p style="color: var(--muted); font-size: 14px; max-width: 640px; margin: 0 auto 22px; line-height: 1.6;">
+        Export the complete dataset of all 18+ cataloged botanical species, vitality metrics, species-tailored remedies, and symptom matrices to save directly into your computer or mobile folder.
+      </p>
+      <div style="display: flex; gap: 14px; justify-content: center; align-items: center; flex-wrap: wrap;">
+        <button class="primary-btn" onclick="downloadDatasetFile('json')">
+          📥 Download Dataset (.JSON)
+        </button>
+        <button class="secondary-btn" onclick="downloadDatasetFile('csv')">
+          📊 Download Dataset (.CSV / Excel)
+        </button>
+      </div>
+      <div style="margin-top: 18px; font-size: 12.5px; color: var(--muted); display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;">
+        <span>💾 Formats: JSON & CSV</span> · 
+        <span>🌿 18 Botanical Species</span> · 
+        <span>💊 100+ Custom Remedies</span> · 
+        <span>📁 Also saved in Downloads folder</span>
       </div>
     </div>
   </section>
@@ -2565,6 +2591,67 @@ analyzeBtn.addEventListener('click', () => {
   // Smooth scroll to results
   document.getElementById('resultsPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
+
+// Download Dataset Functionality (JSON & CSV)
+function downloadDatasetFile(format) {
+  if (format === 'json') {
+    fetch('plant_care_dataset.json')
+      .then(res => res.blob())
+      .then(blob => {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'plant_care_dataset.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      })
+      .catch(() => {
+        // Fallback: generate JSON on the fly from speciesDatabase
+        const fullExport = {
+          metadata: {
+            title: "Verdant AI Botanical Plant Care & Health Remedies Dataset",
+            exported_at: new Date().toISOString(),
+            total_species: Object.keys(speciesDatabase).length
+          },
+          species_catalog: speciesDatabase
+        };
+        const blob = new Blob([JSON.stringify(fullExport, null, 2)], { type: 'application/json' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'plant_care_dataset.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      });
+  } else if (format === 'csv') {
+    fetch('plant_care_dataset.csv')
+      .then(res => res.blob())
+      .then(blob => {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'plant_care_dataset.csv';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      })
+      .catch(() => {
+        // Fallback: construct CSV on the fly
+        let csv = '"Species","Latin_Name","Baseline_Score","Water_Protocol","Light_Protocol","Pest_Defense","Soil_Nutrition","Primary_Remedy"\n';
+        Object.keys(speciesDatabase).forEach(key => {
+          const item = speciesDatabase[key];
+          const rem = (item.remedies && item.remedies[0]) ? item.remedies[0].desc.replace(/"/g, '""') : '';
+          csv += `"${item.common || key}","${item.latin || ''}","${item.score || 80}","${(item.water||'').replace(/"/g, '""')}","${(item.light||'').replace(/"/g, '""')}","${(item.pests||'').replace(/"/g, '""')}","${(item.nutrient||'').replace(/"/g, '""')}","${rem}"\n`;
+        });
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'plant_care_dataset.csv';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      });
+  }
+}
 </script>
 
 </body>

@@ -1,0 +1,671 @@
+{
+  "metadata": {
+    "dataset_name": "Verdant AI Botanical Plant Care & Health Remedies Dataset",
+    "version": "2.4.0",
+    "release_date": "2026-10-12",
+    "license": "Open Botanical Knowledge License (Creative Commons BY-NC 4.0)",
+    "description": "Comprehensive botanical dataset containing species-specific care protocols, organic remedies, symptom treatment matrices, multi-angle inspection guides, and validation rules for domestic and garden flora.",
+    "total_species_cataloged": 18
+  },
+  "species_dataset": [
+    {
+      "id": "tulsi",
+      "common_name": "Tulsi (Holy Basil)",
+      "scientific_name": "Ocimum tenuiflorum / sanctum",
+      "botanical_family": "Lamiaceae",
+      "native_climate": "Tropical and subtropical Indian subcontinent",
+      "vitality_baseline_score": 86,
+      "care_snapshot": {
+        "hydration_protocol": "Water strictly when top 1.5 inches of soil feels dry. Tulsi roots suffocate rapidly in waterlogged clay; ensure fast drainage and morning watering.",
+        "light_exposure_protocol": "Requires 4 to 6 hours of warm morning sun (7 AM to 11 AM). Shelter from cold winter drafts, frost, and excessive direct noon summer sun.",
+        "pest_pathogen_defense": "Leaves are consumed in tea and home remedies — NEVER use synthetic pesticides! For aphids, whiteflies, or black bugs, use organic cold-pressed Neem Oil emulsion (5ml/L lukewarm water + 2 drops mild soap) applied at sunset.",
+        "soil_nutrition_protocol": "Requires airy, well-draining soil (50% garden loam, 30% coarse sand/perlite, 20% vermicompost). Top-dress monthly with 2 tablespoons of aged cow dung manure or compost tea."
+      },
+      "signature_critical_remedy": "Sacred Basil Manjari (Seed Spike) De-heading: Regularly pinch off purple flowering seed clusters. If seeds mature, the plant halts vegetative growth, turns yellow, and rapidly dies of natural senescence.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Sacred Basil Manjari (Seed Spike) De-heading",
+          "action": "Regularly pinch off purple flowering seed clusters (Manjari). If seeds mature, the plant stops vegetative growth, turns yellow, and rapidly dies of natural senescence."
+        },
+        {
+          "step_number": 2,
+          "title": "Culinary-Safe Neem Foliar Treatment",
+          "action": "Mix 5ml pure organic neem oil + 2ml liquid soap into 1 litre warm water. Spray undersides of leaves every 7 days at dusk to eliminate aphids and spider mites without chemical residue."
+        },
+        {
+          "step_number": 3,
+          "title": "Root-Zone Aeration & Water Withholding",
+          "action": "If leaves are turning yellow, roots are lacking oxygen. Stop watering for 3 days, aerate top 2 inches of soil with a small wooden stick, and ensure bottom drainage holes are unblocked."
+        },
+        {
+          "step_number": 4,
+          "title": "Morning Sunlight Alignment",
+          "action": "Place the pot where it receives gentle morning rays from 7 AM to 11 AM. Avoid harsh afternoon scorching sun during peak summer and keep off freezing tile floors in winter."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Withhold water immediately for 72 hours; aerate topsoil; check for clay compaction; add 1 tablespoon vermicompost.",
+        "brown_crispy_edges": "Shield from cold nighttime drafts; ensure morning watering before hot sun; increase ambient humidity.",
+        "spots_holes_webbing": "Wash tender shoots with lukewarm water jet; apply cold-pressed neem oil (5ml/L) weekly at dusk.",
+        "drooping_wilting": "If soil is bone dry, soak container in water basin for 30 minutes; if soil is already damp, unpot to inspect for black rotted roots.",
+        "pale_stunted_growth": "Move to brighter morning sunlight location; apply diluted fermented cow dung manure or mustard cake liquid fertilizer."
+      }
+    },
+    {
+      "id": "hibiscus",
+      "common_name": "Hibiscus (China Rose / Gudhal)",
+      "scientific_name": "Hibiscus rosa-sinensis",
+      "botanical_family": "Malvaceae",
+      "native_climate": "Tropical and subtropical Asia",
+      "vitality_baseline_score": 79,
+      "care_snapshot": {
+        "hydration_protocol": "Deep watering when top 1 inch is dry. Hibiscus drinks heavily during active blooming season, but hates sitting in stagnant saucer runoff.",
+        "light_exposure_protocol": "Demands 6 to 8 hours of intense direct sunlight daily. Insufficient sun directly causes premature flower bud drop and leggy weak foliage.",
+        "pest_pathogen_defense": "Prime target for cottony white mealybugs and aphids on flower buds. Blast bugs away with a sharp water jet, dab stubborn clusters with 70% alcohol on cotton swabs, then spray neem oil weekly.",
+        "soil_nutrition_protocol": "High Potassium Protocol: Hibiscus demands high potassium (K) and low phosphorus (P). High phosphorus locks out iron and stunts flower production. Use banana peel tea or high-K fertilizer (NPK 17-5-24)."
+      },
+      "signature_critical_remedy": "High-Potassium Banana Peel Nutrition & Hard Pruning: Soak chopped banana peels in water for 48 hours and feed monthly; prune old woody branches by one-third in early spring to force vigorous new flowering wood.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Mealybug & Bud-Drop Eradication",
+          "action": "Inspect leaf axils and flower calyxes for white cottony clusters. Dab directly with a cotton swab dipped in rubbing alcohol, then spray neem-soap solution weekly."
+        },
+        {
+          "step_number": 2,
+          "title": "High-Potassium Banana Peel Nutrition",
+          "action": "Soak chopped banana peels in water for 48 hours and pour around root zone twice a month to fuel massive flower bud formation and prevent yellow leaf chlorosis."
+        },
+        {
+          "step_number": 3,
+          "title": "Hard Pruning on New Wood",
+          "action": "Hibiscus flowers only bloom on new green branches. Prune back tall leggy stems by one-third in early spring to stimulate vigorous blooming shoots."
+        },
+        {
+          "step_number": 4,
+          "title": "Regulate Watering Schedule",
+          "action": "Sudden dry-to-flood watering shocks Hibiscus, causing leaves to turn bright yellow and drop within 48 hours. Keep soil consistently lightly moist."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Classic sign of overwatering shock or iron chlorosis. Apply chelated iron foliar spray and potassium-rich banana peel fertilizer.",
+        "brown_crispy_edges": "Heat stress or fertilizer salt buildup; flush pot with clean water and avoid high chemical nitrogen salts.",
+        "spots_holes_webbing": "Aphids and spider mites on bud undersides; spray with insecticidal soap and prune heavily infested flower stems.",
+        "drooping_wilting": "High heat transpiration; water thoroughly until water drains from the base and protect container from scorching hot concrete.",
+        "pale_stunted_growth": "Nutrient deficiency; apply balanced organic compost tea with added wood ash or sulfate of potash."
+      }
+    },
+    {
+      "id": "rose",
+      "common_name": "Rose",
+      "scientific_name": "Rosa",
+      "botanical_family": "Rosaceae",
+      "native_climate": "Temperate Northern Hemisphere",
+      "vitality_baseline_score": 74,
+      "care_snapshot": {
+        "hydration_protocol": "Water the root perimeter deeply in the morning. NEVER splash water onto rose foliage in the evening, as damp leaves trigger Black Spot fungal blight.",
+        "light_exposure_protocol": "Needs 6+ hours of unobstructed direct sun and high airflow to deter powdery mildew.",
+        "pest_pathogen_defense": "Aphids, thrips, and Black Spot fungus (Diplocarpon rosae). Spray organic baking soda fungicide (1 tsp baking soda + 1/2 tsp horticultural oil in 1L water) every 10 days.",
+        "soil_nutrition_protocol": "Heavy feeder: Feed with balanced rose fertilizer enriched with Epsom salts (1 tbsp magnesium sulfate per gallon) for vibrant petal pigmentation."
+      },
+      "signature_critical_remedy": "Black Spot Sanitation & 5-Leaflet Node Deadheading: Remove all infected spotted leaves; prune spent blooms 1/4 inch above the first outward-facing 5-leaflet leaf node at a 45-degree angle.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Black Spot Surgical Sanitation",
+          "action": "Immediately pluck and discard any leaves showing black circular spots with yellow fringes. Do not compost infected leaves."
+        },
+        {
+          "step_number": 2,
+          "title": "Deadheading Above 5-Leaflet Node",
+          "action": "Cut spent, fading flowers 1/4 inch above the first outward-facing 5-leaflet leaf node at a 45-degree angle to trigger fast re-blooming."
+        },
+        {
+          "step_number": 3,
+          "title": "Organic Baking Soda Fungicide",
+          "action": "Dissolve 1 tsp baking soda + 1 tsp mild horticultural oil in 1 liter water; spray weekly to suppress mildew spores."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Black Spot disease or poor drainage; prune lower infected foliage and apply baking soda fungicide.",
+        "brown_crispy_edges": "Sun scorch on delicate petals or potassium deficiency; increase deep ground watering.",
+        "spots_holes_webbing": "Sawfly larvae or black spot fungal lesions; handpick caterpillars and spray with copper fungicide.",
+        "drooping_wilting": "Root nematode attack or severe root dry-out; drench soil and mulch with organic shredded bark.",
+        "pale_stunted_growth": "Lack of direct sun or magnesium deficit; apply 1 tablespoon Epsom salts dissolved in water."
+      }
+    },
+    {
+      "id": "snake_plant",
+      "common_name": "Snake Plant (Sansevieria)",
+      "scientific_name": "Dracaena trifasciata",
+      "botanical_family": "Asparagaceae",
+      "native_climate": "Tropical West Africa",
+      "vitality_baseline_score": 92,
+      "care_snapshot": {
+        "hydration_protocol": "Extreme drought-hardy succulent. Water only every 2 to 3 weeks in summer, and once every 4 to 5 weeks in winter. The soil must be 100% bone-dry before watering.",
+        "light_exposure_protocol": "Tolerates low light to bright indirect sun. Protect from scorching magnification behind south-facing window glass.",
+        "pest_pathogen_defense": "Virtually pest-free. Yellow, soft, or mushy leaves are a 100% symptom of overwatering and root rot.",
+        "soil_nutrition_protocol": "Minimal feeding required. Use cactus/succulent gritty mix with 50% pumice and coarse perlite."
+      },
+      "signature_critical_remedy": "Emergency Cinnamon Root Rot Rescue: Unpot immediately if base is mushy; slice off black soggy roots; dust cut surfaces with cinnamon powder; repot into bone-dry perlite soil.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Emergency Root Rot Rescue",
+          "action": "If leaf base is soggy or mushy, remove plant from pot immediately. Cut away brown rotten roots, dust healthy cut ends with cinnamon powder, and repot in dry succulent soil."
+        },
+        {
+          "step_number": 2,
+          "title": "Enforce Strict Drought Interval",
+          "action": "Stop all watering for 3 full weeks. Snake plants store gallons of water in their rigid fleshy leaves and thrive on neglect."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Severe overwatering; unpot, remove rotted rhizomes, and withhold water for 1 month.",
+        "brown_crispy_edges": "Physical damage or cold damage below 10°C; move away from drafty windows.",
+        "spots_holes_webbing": "Rare fungal red leaf spot from overhead splashing; keep foliage completely dry.",
+        "drooping_wilting": "Wrinkled, folded leaves mean long-term dehydration; soak pot in water basin for 15 minutes.",
+        "pale_stunted_growth": "Normal slow growth in low light; move to bright indirect sunlight to boost growth."
+      }
+    },
+    {
+      "id": "money_plant",
+      "common_name": "Money Plant / Golden Pothos",
+      "scientific_name": "Epipremnum aureum",
+      "botanical_family": "Araceae",
+      "native_climate": "French Polynesia",
+      "vitality_baseline_score": 88,
+      "care_snapshot": {
+        "hydration_protocol": "Water when top 2 inches dry out. Limp drooping vines mean dry soil; yellow translucent leaves mean soggy soil.",
+        "light_exposure_protocol": "Flourishes in bright indirect sunlight. If golden marble variegation disappears and leaves turn solid green, move closer to a window.",
+        "pest_pathogen_defense": "Occasionally scale insects or mealybugs on vine nodes. Wipe leaves with diluted neem oil.",
+        "soil_nutrition_protocol": "Diluted balanced liquid feed (20-20-20 at quarter strength) once a month during growing season."
+      },
+      "signature_critical_remedy": "Microfiber Dusting & Node Pruning: Clean broad leaves monthly to unblock stomata; snip bare leggy vines below aerial root nodes to propagate bushy new growth in water.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Foliar Microfiber Dusting",
+          "action": "Wipe broad leaves monthly with a damp cloth to remove household dust, allowing leaves to absorb maximum indirect light."
+        },
+        {
+          "step_number": 2,
+          "title": "Pruning & Water Propagation",
+          "action": "Snip bare, leggy vine sections just below a brown aerial root node; place in clean water to root new bushy plants."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Waterlogged soil or root-bound pot; repot into fresh porous potting mix and empty saucer tray.",
+        "brown_crispy_edges": "Dry indoor air or chlorine in tap water; mist foliage and use dechlorinated standing water.",
+        "spots_holes_webbing": "Mealybugs on stem junctions; wipe nodes with 70% alcohol dipped cotton bud.",
+        "drooping_wilting": "Soil has completely dried out; submerge pot in lukewarm water until bubbles stop rising.",
+        "pale_stunted_growth": "Insufficient indirect light; move within 3 feet of an east-facing window."
+      }
+    },
+    {
+      "id": "tomato",
+      "common_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "botanical_family": "Solanaceae",
+      "native_climate": "Western South America",
+      "vitality_baseline_score": 75,
+      "care_snapshot": {
+        "hydration_protocol": "Deep, steady watering at the base. Uneven watering causes fruit splitting and Blossom End Rot.",
+        "light_exposure_protocol": "Requires 8+ hours of intense full sun outdoors.",
+        "pest_pathogen_defense": "Hornworms, aphids, and early blight fungus. Remove all foliage within 10 inches of the ground to prevent soil-splashed spores.",
+        "soil_nutrition_protocol": "Requires high calcium (bone meal / crushed eggshells) and potassium for fruit development."
+      },
+      "signature_critical_remedy": "Blossom-End Rot Calcium Protocol & Lower Canopy Sanitation: Mulch soil heavily to maintain steady hydration; prune all leaves within 10 inches of soil to stop blight spores.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Blossom-End Rot Calcium Protocol",
+          "action": "Add dolomitic lime or gypsum and mulch soil with 2 inches of straw to maintain consistent moisture and prevent black fruit bottoms."
+        },
+        {
+          "step_number": 2,
+          "title": "Lower Canopy Sanitation",
+          "action": "Prune all bottom leaves touching the soil line to block fungal spores from splashing onto foliage during rain."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Early blight or nitrogen deficiency in lower leaves; trim infected foliage and apply organic tomato feed.",
+        "brown_crispy_edges": "Potassium deficiency or heat scorch; mulch heavily with organic straw.",
+        "spots_holes_webbing": "Flea beetles or hornworms; handpick large green caterpillars and dust with diatomaceous earth.",
+        "drooping_wilting": "Bacterial wilt or severe thirst; check stem vascular tissue for discoloration.",
+        "pale_stunted_growth": "Phosphorus deficiency (purple leaf undersides); apply bone meal or rock phosphate."
+      }
+    },
+    {
+      "id": "aloe_vera",
+      "common_name": "Aloe Vera",
+      "scientific_name": "Aloe barbadensis miller",
+      "botanical_family": "Asphodelaceae",
+      "native_climate": "Arabian Peninsula",
+      "vitality_baseline_score": 90,
+      "care_snapshot": {
+        "hydration_protocol": "Soak-and-dry method. Water deeply until liquid exits the bottom, then wait 3 to 4 weeks until bone dry. Never pour water into the center crown.",
+        "light_exposure_protocol": "Bright indirect light or gentle morning sun. Intense midday scorching sun turns leaves reddish-brown.",
+        "pest_pathogen_defense": "Rarely gets pests. Soft mushy leaves indicate waterlogged roots.",
+        "soil_nutrition_protocol": "Cactus soil mix in a porous terracotta pot."
+      },
+      "signature_critical_remedy": "Sunburn Color Restoration & Terracotta Drainage: Shift plant 3 feet back from hot scorching windows to restore rich emerald gel plumpness; use unglazed terracotta.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Sunburn & Red Leaf Relief",
+          "action": "If leaves turn brown or bronze, the plant is getting excessive UV scorch. Shift 3 feet back from the hot window to restore emerald gel plumpness."
+        },
+        {
+          "step_number": 2,
+          "title": "Terracotta Moisture Regulation",
+          "action": "Repot into an unglazed terracotta pot with drainage holes to allow rapid root moisture evaporation."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Waterlogged potting soil; stop watering, remove yellow limp outer leaves, repot into gritty sand.",
+        "brown_crispy_edges": "Sun scorch from sudden transition to intense direct sunlight; acclimate gradually.",
+        "spots_holes_webbing": "Aloe rust fungus; keep leaves completely dry and apply sulfur dust.",
+        "drooping_wilting": "Translucent flat leaves indicate water starvation; give one thorough bottom soak.",
+        "pale_stunted_growth": "Inadequate light causing thin, spidery leaves; move closer to a bright window."
+      }
+    },
+    {
+      "id": "mint",
+      "common_name": "Mint (Pudina)",
+      "scientific_name": "Mentha",
+      "botanical_family": "Lamiaceae",
+      "native_climate": "Eurasia and North America",
+      "vitality_baseline_score": 83,
+      "care_snapshot": {
+        "hydration_protocol": "Loves consistently moist soil. Bottom water whenever the top 0.5 inch begins to feel dry.",
+        "light_exposure_protocol": "Bright morning light and partial afternoon shade. High afternoon heat wilts mint leaves rapidly.",
+        "pest_pathogen_defense": "Aphids and spider mites. Spray with cool water jet and mild insecticidal soap.",
+        "soil_nutrition_protocol": "Light compost top-dressing monthly."
+      },
+      "signature_critical_remedy": "Shoot Pinching & Root Container Isolation: Pinch top 2 inches weekly to force bushy growth and halt bitter flowering; isolate in separate container to block invasive root runners.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Frequent Pinching for Bushy Habit",
+          "action": "Pinch off top 2-3 inches of stems weekly. This prevents flowering and forces rapid branching into dense, aromatic foliage."
+        },
+        {
+          "step_number": 2,
+          "title": "Container Root Isolation",
+          "action": "Always grow mint in its own dedicated pot to prevent its aggressive runners from choking surrounding plants."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Roots have become pot-bound; divide root ball in half and repot into fresh rich soil.",
+        "brown_crispy_edges": "Severe underwatering or scorching dry heat; trim crispy stems to base for fresh regrowth.",
+        "spots_holes_webbing": "Mint rust fungus; prune infected stems to soil level and disinfect scissors.",
+        "drooping_wilting": "Thirst reaction in hot sun; bottom water immediately, plant will recover in 2 hours.",
+        "pale_stunted_growth": "Lack of light or nutrient exhaustion; move to morning sun and add vermicompost."
+      }
+    },
+    {
+      "id": "peace_lily",
+      "common_name": "Peace Lily",
+      "scientific_name": "Spathiphyllum",
+      "botanical_family": "Araceae",
+      "native_climate": "Tropical Americas and Southeast Asia",
+      "vitality_baseline_score": 81,
+      "care_snapshot": {
+        "hydration_protocol": "Water when top 1 inch is dry or when leaves just begin to relax. Highly sensitive to fluoride and chlorine in tap water.",
+        "light_exposure_protocol": "Medium indirect light. Direct sunlight burns foliage with permanent scorch marks.",
+        "pest_pathogen_defense": "Spider mites and fungus gnats in moist potting mix.",
+        "soil_nutrition_protocol": "Half-strength houseplant fertilizer in spring and summer."
+      },
+      "signature_critical_remedy": "Fluoride Water Filtering & Pebble Humidity Tray: Use filtered/rainwater to stop brown leaf tips; place pot on pebble water tray to boost ambient humidity.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Filtered Water Switch for Brown Tips",
+          "action": "Brown leaf tips are caused by tap chlorine and fluoride. Water with filtered, distilled, or rainwater left standing for 24 hours."
+        },
+        {
+          "step_number": 2,
+          "title": "Pebble Humidity Tray",
+          "action": "Place pot on a saucer filled with pebbles and water to increase ambient humidity without making roots soggy."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Old leaf senescence or overwatering; trim lower yellow leaves and let topsoil dry.",
+        "brown_crispy_edges": "Chemical burn from municipal tap water; switch to distilled or rainwater.",
+        "spots_holes_webbing": "Fungus gnats from soggy soil surface; allow top 2 inches of soil to dry out.",
+        "drooping_wilting": "Dramatic wilt signal when dry; water thoroughly and plant stands erect within 4 hours.",
+        "pale_stunted_growth": "Low light blocking blooms; move closer to filtered window light."
+      }
+    },
+    {
+      "id": "marigold",
+      "common_name": "Marigold (Genda)",
+      "scientific_name": "Tagetes",
+      "botanical_family": "Asteraceae",
+      "native_climate": "Central and South America",
+      "vitality_baseline_score": 84,
+      "care_snapshot": {
+        "hydration_protocol": "Water ground when top inch dries; keep flowers dry to prevent petal rot.",
+        "light_exposure_protocol": "Full direct sunlight (6+ hours) for prolific non-stop blooms.",
+        "pest_pathogen_defense": "Natural insect repelling qualities, but prone to spider mites in hot dry weather.",
+        "soil_nutrition_protocol": "Moderate feeding; avoid high nitrogen which produces all leaves and zero flowers."
+      },
+      "signature_critical_remedy": "Weekly Flower Deadheading & Spider Mite Water Rinse: Snip faded blooms weekly to trigger rapid new flower bud sets; wash leaf undersides with cold water jet.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Weekly Flower Deadheading",
+          "action": "Pluck faded, brown blossoms immediately to redirect plant energy into producing a continuous wave of fresh buds."
+        },
+        {
+          "step_number": 2,
+          "title": "Spider Mite Water Rinse",
+          "action": "Spray undersides of leaves with a firm jet of cold water in the morning to disperse fine webs and spider mites."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Wet foliage causing fungal collar rot; water strictly at soil line in the morning.",
+        "brown_crispy_edges": "Spider mite webbing damage; spray sulfur wash or neem emulsion.",
+        "spots_holes_webbing": "Snails or slugs eating flowers; sprinkle crushed eggshells around pot perimeter.",
+        "drooping_wilting": "Root dry-out in small terracotta container; move to larger container with mulch.",
+        "pale_stunted_growth": "Too much shade; relocate to maximum direct sunlight exposure."
+      }
+    },
+    {
+      "id": "chilli_pepper",
+      "common_name": "Chilli Pepper (Mirchi)",
+      "scientific_name": "Capsicum annuum",
+      "botanical_family": "Solanaceae",
+      "native_climate": "Central and South America",
+      "vitality_baseline_score": 77,
+      "care_snapshot": {
+        "hydration_protocol": "Consistent moisture; allow top 1 inch to dry between waterings.",
+        "light_exposure_protocol": "Needs 6 to 8 hours of hot direct sun.",
+        "pest_pathogen_defense": "Thrips and mites causing upward leaf curling.",
+        "soil_nutrition_protocol": "High phosphorus and potassium once flowering begins; calcium to stop blossom end rot."
+      },
+      "signature_critical_remedy": "Leaf Curl Neem Treatment & Flower Pollination Shake: Spray neem under curled leaves to kill thrips; gently shake flowering stems daily to ensure heavy fruit setting.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Leaf Curl Spray Treatment",
+          "action": "Upward curled leaves indicate thrips or calcium deficiency. Spray neem oil on leaf undersides and sprinkle wood ash around base."
+        },
+        {
+          "step_number": 2,
+          "title": "Flower Drop Prevention",
+          "action": "Shake flower clusters gently by hand to encourage self-pollination and maintain steady watering."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Overwatering or cold night shock; keep warm and let potting soil dry between waterings.",
+        "brown_crispy_edges": "Potassium deficiency; apply banana peel water or wood ash.",
+        "spots_holes_webbing": "Thrips or aphids causing distorted leaf edges; spray cold-pressed neem soap.",
+        "drooping_wilting": "Severe midday heat; water thoroughly in early morning.",
+        "pale_stunted_growth": "Calcium deficiency (crinkled new leaves); add bone meal or gypsum to soil."
+      }
+    },
+    {
+      "id": "monstera",
+      "common_name": "Monstera Deliciosa",
+      "scientific_name": "Monstera deliciosa",
+      "botanical_family": "Araceae",
+      "native_climate": "Tropical forests of southern Mexico",
+      "vitality_baseline_score": 85,
+      "care_snapshot": {
+        "hydration_protocol": "Water when top 2-3 inches of potting medium are dry. Empty excess saucer runoff.",
+        "light_exposure_protocol": "Bright filtered light. Direct sun scorches leaves, while low light halts leaf fenestrations (splits).",
+        "pest_pathogen_defense": "Thrips, scale, and spider mites.",
+        "soil_nutrition_protocol": "Balanced 20-20-20 fertilizer monthly during active growth."
+      },
+      "signature_critical_remedy": "Coco-Coir Moss Pole Training & Monthly Foliar Cleanse: Guide aerial roots onto a damp moss pole to trigger massive split leaves; wipe dust with damp microfiber cloth.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Moss Pole Staking for Aerial Roots",
+          "action": "Train creeping stems onto a damp coco-coir or moss pole. Aerial root support stimulates massive, fenestrated leaves."
+        },
+        {
+          "step_number": 2,
+          "title": "Monthly Leaf Cleanse",
+          "action": "Wipe broad leaves with a damp microfiber cloth to remove dust and optimize photosynthetic gas exchange."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Waterlogged root zone; check saucer drainage and delay next watering by 5 days.",
+        "brown_crispy_edges": "Low humidity or intense scorching sunlight; move out of direct beams.",
+        "spots_holes_webbing": "Thrips larvae feeding on leaf surface; wash foliage and apply insecticidal soap.",
+        "drooping_wilting": "Underwatering or root-bound pot; repot into container 2 inches wider.",
+        "pale_stunted_growth": "Lack of fenestrations (splits); move closer to bright filtered window light."
+      }
+    },
+    {
+      "id": "coriander",
+      "common_name": "Coriander (Dhaniya / Cilantro)",
+      "scientific_name": "Coriandrum sativum",
+      "botanical_family": "Apiaceae",
+      "native_climate": "Southern Europe, North Africa, and Southwest Asia",
+      "vitality_baseline_score": 80,
+      "care_snapshot": {
+        "hydration_protocol": "Evenly moist soil; avoid waterlogging.",
+        "light_exposure_protocol": "Morning sun and cool afternoon shade.",
+        "pest_pathogen_defense": "Aphids on tender stems; wash with mild soap.",
+        "soil_nutrition_protocol": "Light organic vermicompost; avoid excess nitrogen."
+      },
+      "signature_critical_remedy": "Bolting Heat Defense & Continuous Outer Harvesting: Keep roots cool with light mulch to stop premature bitter flowering; harvest outer leaves weekly.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Bolting Prevention",
+          "action": "In hot weather (>25°C), move to shade to stop coriander from bolting into bitter flowers."
+        },
+        {
+          "step_number": 2,
+          "title": "Regular Outer Leaf Harvesting",
+          "action": "Cut outer stems continually to stimulate new leafy shoots from the crown."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Waterlogged roots; ensure rapid container drainage.",
+        "brown_crispy_edges": "High afternoon temperature scorch; provide afternoon shade.",
+        "spots_holes_webbing": "Aphids clustering under flower heads; wash with mild organic soap.",
+        "drooping_wilting": "Shallow root dry-out; maintain consistent light moisture.",
+        "pale_stunted_growth": "Exhausted potting mix; top-dress with vermicompost."
+      }
+    },
+    {
+      "id": "parsley",
+      "common_name": "Parsley",
+      "scientific_name": "Petroselinum crispum",
+      "botanical_family": "Apiaceae",
+      "native_climate": "Central and Eastern Mediterranean",
+      "vitality_baseline_score": 82,
+      "care_snapshot": {
+        "hydration_protocol": "Moist, well-drained soil.",
+        "light_exposure_protocol": "Full to partial sun.",
+        "pest_pathogen_defense": "Check for swallowtail caterpillars and aphids.",
+        "soil_nutrition_protocol": "Balanced organic liquid feed monthly."
+      },
+      "signature_critical_remedy": "Deep Taproot Hydration & Crown Aeration: Water around root perimeter; keep mulch away from central growing crown.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Moisture Balance",
+          "action": "Do not allow root zone to dry completely; maintain light mulching."
+        },
+        {
+          "step_number": 2,
+          "title": "Base Watering",
+          "action": "Water around root crown to maintain healthy, crisp fronds."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Root rot from soggy soil or old outer fronds; harvest outer foliage.",
+        "brown_crispy_edges": "Sun scorch in dry climate; increase soil moisture.",
+        "spots_holes_webbing": "Septoria leaf spot fungus; remove spotted leaves.",
+        "drooping_wilting": "Dry root ball; water deeply until bottom drains.",
+        "pale_stunted_growth": "Needs nitrogen boost; apply organic fish or seaweed emulsion."
+      }
+    },
+    {
+      "id": "curry_leaf",
+      "common_name": "Curry Leaf (Kadi Patta)",
+      "scientific_name": "Murraya koenigii",
+      "botanical_family": "Rutaceae",
+      "native_climate": "Indian subcontinent",
+      "vitality_baseline_score": 84,
+      "care_snapshot": {
+        "hydration_protocol": "Water when top 1.5 inches dry. Never let roots sit in icy stagnant water.",
+        "light_exposure_protocol": "Demands 5 to 6 hours of warm sunlight. Protect from winter frost.",
+        "pest_pathogen_defense": "Scale insects and psyllids; spray sour buttermilk (1:5 dilution with water) or neem oil.",
+        "soil_nutrition_protocol": "Needs acidic to neutral soil. Feed with 1 cup sour buttermilk or curd water monthly for iron boost."
+      },
+      "signature_critical_remedy": "Sour Buttermilk & Epsom Salt Iron Boost: Drench root zone with fermented buttermilk (100ml in 1L water) and 1 tsp Epsom salts monthly to stop pale yellow leaf chlorosis.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Sour Buttermilk Soil Drench",
+          "action": "Pour 1 glass of sour fermented curd water into the pot once a month. The natural lactic acid bacteria acidify the soil and unlock iron nutrients."
+        },
+        {
+          "step_number": 2,
+          "title": "Spring Canopy Pruning",
+          "action": "Prune tall woody tops in late winter. This triggers multiple bushy branching shoots packed with aromatic leaves."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Iron chlorosis; apply sour buttermilk drench and move to sunny location.",
+        "brown_crispy_edges": "Winter cold draft damage; bring container indoors near a sunny window.",
+        "spots_holes_webbing": "Scale insects or black sooty mold; wipe stems with neem oil wash.",
+        "drooping_wilting": "Waterlogged clay soil; repot with 40% sand and perlite.",
+        "pale_stunted_growth": "Low soil acidity or nitrogen deficit; feed with composted cow manure."
+      }
+    },
+    {
+      "id": "jasmine",
+      "common_name": "Jasmine (Mogra / Arabian Jasmine)",
+      "scientific_name": "Jasminum sambac",
+      "botanical_family": "Oleaceae",
+      "native_climate": "Tropical Asia",
+      "vitality_baseline_score": 83,
+      "care_snapshot": {
+        "hydration_protocol": "Deep watering during hot blooming season; allow surface soil to dry slightly between sessions.",
+        "light_exposure_protocol": "Full sun (6+ hours) for intense fragrance and abundant buds.",
+        "pest_pathogen_defense": "Bud worms and whiteflies; spray organic neem oil weekly.",
+        "soil_nutrition_protocol": "Enriched compost and bone meal for phosphorus bloom stimulation."
+      },
+      "signature_critical_remedy": "Post-Bloom Cane Pruning & Bone Meal Feeding: Prune stems back after each flowering flush and add 1 tablespoon bone meal to trigger immediate fresh flower bud clusters.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Post-Bloom Shoot Pruning",
+          "action": "After flowers fade, trim the branch back by 4 inches. Jasmine blooms only on fresh shoots, so trimming forces immediate re-blooming."
+        },
+        {
+          "step_number": 2,
+          "title": "Organic Phosphorus Bone Meal",
+          "action": "Work 1 tablespoon of organic bone meal or rock phosphate into topsoil to stimulate high bud count and potent fragrance."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Overwatering or iron deficiency; ensure rapid drainage and full sunlight.",
+        "brown_crispy_edges": "Severe heat dehydration; mulch with coco-coir.",
+        "spots_holes_webbing": "Bud worms boring into flower buds; spray neem oil before buds open.",
+        "drooping_wilting": "Thirsty plant in direct summer heat; water deeply in the early morning.",
+        "pale_stunted_growth": "Shady spot; move to direct sunlight veranda."
+      }
+    },
+    {
+      "id": "zz_plant",
+      "common_name": "ZZ Plant",
+      "scientific_name": "Zamioculcas zamiifolia",
+      "botanical_family": "Araceae",
+      "native_climate": "Eastern Africa",
+      "vitality_baseline_score": 94,
+      "care_snapshot": {
+        "hydration_protocol": "Stores gallons in underground potato-like rhizomes. Water only once every 3 to 4 weeks. Soil must be bone dry.",
+        "light_exposure_protocol": "Tolerates deepest shade to bright indirect light.",
+        "pest_pathogen_defense": "Virtually immune to pests; only susceptible to root rot from overwatering.",
+        "soil_nutrition_protocol": "Gritty succulent cactus mix with pumice."
+      },
+      "signature_critical_remedy": "Rhizome Drought Protocol: Withhold water completely for 4 weeks if lower stems turn yellow or wrinkled; unpot and discard soft brown rhizomes.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Rhizome Inspection & Rot Rescue",
+          "action": "If stems become soft or fall over, unpot immediately. Healthy rhizomes look like firm potatoes. Cut away mushy parts and repot in dry gritty mix."
+        },
+        {
+          "step_number": 2,
+          "title": "Monthly Neglect Schedule",
+          "action": "Water only once every month. ZZ plants flourish on neglect and suffer exclusively from well-intentioned over-attention."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Rotting rhizomes from excess moisture; stop all watering for 1 month.",
+        "brown_crispy_edges": "Extreme scorch from direct sun behind glass; move into indirect room light.",
+        "spots_holes_webbing": "Rare scale; wipe glossy leaves with damp cloth.",
+        "drooping_wilting": "Severe stem rot or extreme dehydration; check rhizome firmness.",
+        "pale_stunted_growth": "Normal growth rate (1-2 new shoots per season); move to bright indirect spot."
+      }
+    },
+    {
+      "id": "jade_plant",
+      "common_name": "Jade Plant",
+      "scientific_name": "Crassula ovata",
+      "botanical_family": "Crassulaceae",
+      "native_climate": "South Africa",
+      "vitality_baseline_score": 91,
+      "care_snapshot": {
+        "hydration_protocol": "Water thoroughly when fleshy leaves begin to feel slightly soft or wrinkly; usually every 2 weeks.",
+        "light_exposure_protocol": "Needs 4 to 6 hours of bright direct or filtered sunlight.",
+        "pest_pathogen_defense": "Mealybugs hiding in stem joints; swab with rubbing alcohol.",
+        "soil_nutrition_protocol": "Porous succulent soil in a heavy ceramic or terracotta pot to prevent tipping."
+      },
+      "signature_critical_remedy": "Leaf Firmness Turgor Test: Squeeze lower leaves gently: if firm like pebbles, do NOT water; if slightly soft or wrinkled, give a thorough soak.",
+      "step_by_step_remedies": [
+        {
+          "step_number": 1,
+          "title": "Leaf Turgor Squeeze Test",
+          "action": "Never water on a calendar schedule. Squeeze a mature leaf gently: water only when it yields slightly to finger pressure."
+        },
+        {
+          "step_number": 2,
+          "title": "Stem Pruning for Tree Trunk Vigor",
+          "action": "Prune back drooping branch ends to encourage the main trunk to thicken into a sturdy, bonsai-like woody stem."
+        }
+      ],
+      "symptom_treatment_matrix": {
+        "yellowing_leaves": "Soggy soil causing root rot; withhold water until soil is completely dry.",
+        "brown_crispy_edges": "Sun scorch on unacclimated leaves; introduce direct sunlight gradually.",
+        "spots_holes_webbing": "Cottony mealybugs on stem forks; dab with 70% alcohol on cotton swab.",
+        "drooping_wilting": "Wrinkled, shriveled leaves mean prolonged drought; soak pot in water.",
+        "pale_stunted_growth": "Stretching toward light (etiolation); move to brightest available windowsill."
+      }
+    }
+  ],
+  "validation_rules_engine": {
+    "engine_type": "Dual-Stage Neural & Chromaticity Classifier",
+    "botanical_chromaticity_thresholds": {
+      "minimum_green_foliage_ratio": 0.15,
+      "minimum_floral_petal_ratio": 0.20,
+      "maximum_skin_tone_ratio": 0.28,
+      "maximum_synthetic_gray_ratio": 0.85,
+      "maximum_synthetic_blue_ratio": 0.45
+    },
+    "rejected_non_plant_categories": [
+      "vehicles (cars, trucks, motorcycles, airplanes)",
+      "humans (faces, hands, selfies, skin tones)",
+      "clothing & footwear (shoes, shirts, suits, sneakers)",
+      "electronics (phones, laptops, keyboards, monitors)",
+      "household furniture (chairs, desks, sofas, cups, bottles, clocks)",
+      "animals (dogs, cats, birds, pets)"
+    ],
+    "error_response": {
+      "error_message": "this is not a valid image",
+      "user_guidance": "Verdant requires clear photos of plant leaves, stems, flowers, or soil to diagnose botanical health."
+    }
+  }
+}
